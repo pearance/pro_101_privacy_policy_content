@@ -2,6 +2,7 @@ name = Pro 101 Privacy Policy Content
 description = Default content for the Pro 101 Privacy Policy.
 core = 7.x
 package = Pro 101 Defaults (L)
+php = 5.2.4
 version = 7.x-1.0
 project = pro_101_privacy_policy_content
 dependencies[] = defaultcontent
