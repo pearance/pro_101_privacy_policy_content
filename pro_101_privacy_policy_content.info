@@ -6,5 +6,7 @@ php = 5.2.4
 version = 7.x-1.0
 project = pro_101_privacy_policy_content
 dependencies[] = defaultcontent
+dependencies[] = menu
 features[content][] = privacy_policy
+features[content_menu_links][] = menu-auxiliary:node-name/privacy_policy
 features[features_api][] = api:1
