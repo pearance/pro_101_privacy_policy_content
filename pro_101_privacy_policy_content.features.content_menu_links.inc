@@ -10,8 +10,8 @@
 function pro_101_privacy_policy_content_content_menu_links_defaults() {
   $menu_links = array();
 
-  // Exported menu link: menu-auxiliary:node/16
-  $menu_links['menu-auxiliary:node/16'] = array(
+  // Exported menu link: menu-auxiliary:node/17
+  $menu_links['menu-auxiliary:node/17'] = array(
     'menu_name' => 'menu-auxiliary',
     'link_path' => 'node-name/privacy_policy',
     'router_path' => 'node/%',
