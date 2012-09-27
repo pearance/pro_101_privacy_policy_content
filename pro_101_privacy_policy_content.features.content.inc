@@ -12,6 +12,24 @@ function pro_101_privacy_policy_content_content_defaults() {
 
   $content['privacy_policy'] = (object) array(
     'exported_path' => 'privacy-policy',
+    'link' => array(
+      'menu_name' => 'menu-auxiliary',
+      'link_path' => 'node-name/privacy_policy',
+      'router_path' => 'node/%',
+      'link_title' => 'Privacy Policy',
+      'options' => array(
+        'attributes' => array(
+          'title' => '',
+        ),
+      ),
+      'module' => 'menu',
+      'hidden' => '0',
+      'external' => '0',
+      'has_children' => '0',
+      'expanded' => '0',
+      'weight' => '0',
+      'identifier' => 'menu-auxiliary:node-name/privacy_policy',
+    ),
     'title' => 'Privacy Policy',
     'status' => '1',
     'promote' => '0',
